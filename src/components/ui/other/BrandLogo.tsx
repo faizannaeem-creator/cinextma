@@ -28,16 +28,7 @@ const BrandLogo: React.FC<BrandLogoProps> = ({ animate = false, className }) => 
           className,
         )}
       >
-        CINE{" "}
-        <span>
-          <Next
-            className={cn("size-full px-[2px] transition-colors", {
-              "text-primary": content === "movie",
-              "text-warning": content === "tv",
-            })}
-          />
-        </span>{" "}
-        TMA
+        IBRAFLIX
       </span>
     </Link>
   );
